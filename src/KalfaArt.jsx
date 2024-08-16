@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 
-export default function Stories() {
+export default function KalfaArt() {
   return (
     <>
       <motion.div className="storiesContainer"
