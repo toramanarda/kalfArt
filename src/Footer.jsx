@@ -14,7 +14,7 @@ export default function Footer() {
       </div>
       <div className="footerInviteAndPolicy">
         <div className="getAnInvite">
-          <Link to='https://www.instagram.com/kalfart_workshop/' target="blank"><span className="linkText">Bana Ulaşın</span><img src="/images/arrow-right-w.png" alt="Invite Icon" /></Link>
+          <Link to='https://www.instagram.com/kalfart_workshop/' target="blank"><span className="linkText">Bana Ulaşın</span><img src="/images/arrow.png" alt="Invite Icon" /></Link>
         </div>
         <p>Coded By <a target="blank" href="https://toramanarda.com.tr/">Arda Toraman.</a> </p>
       </div>
