@@ -419,13 +419,6 @@
       & .smallStory {
         width: 100%;
       }
-
-      & .smallStoryInfo {
-
-        & .smallStoryText {
-          border-bottom: 1px solid #FFF;
-        }
-      }
     }
   }
 

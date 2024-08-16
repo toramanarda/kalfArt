@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import KalfArt from './KalfArt.jsx';
+import Stories from './Stories.jsx';
 import './App.css';
 import './Queries.css';
 import App from "./App.jsx";
@@ -12,7 +12,7 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
-        element: <KalfArt />
+        element: <Stories />
       },
     ]
   }

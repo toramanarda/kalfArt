@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
 :root {
-  --KalfArtBg: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
+  --storiesBg: linear-gradient(27deg, #FFC593 0%, #BC7198 43.29%, #5A77FF 83.33%);
 }
 
 * {
@@ -86,9 +86,9 @@ li {
 
 .container {
 
-  & .largeKalfArt {
+  & .largeStories {
 
-    & .blackBgKalfArt {
+    & .blackBgStories {
       background: #000;
 
       & h1 {
@@ -115,7 +115,7 @@ li {
         letter-spacing: 2px;
       }
 
-      & .KalfArtText::before {
+      & .storiesText::before {
         content: "";
         position: absolute;
         bottom: 20%;
@@ -126,7 +126,7 @@ li {
       }
     }
 
-    & .KalfArt {
+    & .stories {
       display: flex;
 
       & h1 {
@@ -156,7 +156,7 @@ li {
         cursor: pointer;
       }
 
-      & .KalfArtText {
+      & .storiesText {
         padding: 140px 112px;
         position: relative;
         flex-basis: 40%;
@@ -191,10 +191,10 @@ li {
     }
   }
 
-  & .smallKalfArt {
+  & .smallStories {
     display: flex;
 
-    & .smallKalfArt {
+    & .smallStory {
       position: relative;
       transition: transform 0.5s ease;
 
@@ -205,13 +205,13 @@ li {
         object-fit: cover;
       }
 
-      & .smallKalfArtInfo {
+      & .smallStoryInfo {
         width: 100%;
         position: absolute;
         bottom: 0;
         padding: 40px;
 
-        & .smallKalfArtText {
+        & .smallStoryText {
 
           & h1 {
             color: #FFF;
@@ -230,7 +230,7 @@ li {
           }
         }
 
-        & .readKalfArt {
+        & .readStory {
           display: flex;
           justify-content: space-between;
           margin-top: 20px;
@@ -308,7 +308,7 @@ li {
   }
 }
 
-.KalfArtContainer {
+.storiesContainer {
 
   & .largestImg {
     width: 100%;
@@ -360,7 +360,7 @@ li {
         }
       }
 
-      & .readKalfArt {
+      & .readStory {
         display: flex;
         gap: 16px;
         align-items: center;
@@ -377,11 +377,11 @@ li {
     }
   }
 
-  & .smallKalfArt {
+  & .smallStories {
     display: inline-flex;
     flex-wrap: wrap;
 
-    & .smallKalfArt {
+    & .smallStory {
       width: 25%;
       position: relative;
       transition: transform 0.5s ease;
@@ -390,14 +390,14 @@ li {
         display: block;
       }
 
-      & .smallKalfArtInfo {
+      & .smallStoryInfo {
         width: 100%;
         position: absolute;
         top: 310px;
         padding: 0 40px;
         padding: 40px;
 
-        & .smallKalfArtText {
+        & .smallStoryText {
 
           & h5 {
             color: #FFF;
@@ -425,7 +425,7 @@ li {
           }
         }
 
-        & .readKalfArt {
+        & .readStory {
           display: flex;
           justify-content: space-between;
           margin-top: 20px;
@@ -445,7 +445,7 @@ li {
       }
     }
 
-    .smallKalfArt:hover::after {
+    .smallStory:hover::after {
       content: "";
       position: absolute;
       bottom: 0;
