@@ -408,9 +408,7 @@
       }
 
       .largesImgText {
-        background: #000;
-        position: relative;
-        padding: 40px 24px;
+        display: none;
       }
     }
 

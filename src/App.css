@@ -324,7 +324,7 @@ li {
       position: absolute;
       text-align: center;
       top: 0;
-      padding: 10px 940px 0px 650px;
+      margin: 10px 940px 0px 650px;
 
       & h3 {
         color: #FFF;
